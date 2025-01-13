@@ -16,3 +16,5 @@
 !/index.d.ts
 
 # Library specific ones
+/*.png
+/*.ico

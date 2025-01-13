@@ -4,9 +4,9 @@ import { command } from '../lib/command.js';
 
 const should = chai.should();
 
-describe('something', () => {
-  it('should work', async () => {
-    const result = await command(['test']);
+describe('command', () => {
+  it('should parse arguments successfully', async () => {
+    const result = await command(['test.svg']);
 
     should.exist(result);
 
