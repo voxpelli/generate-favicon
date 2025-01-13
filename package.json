@@ -1,6 +1,6 @@
 {
   "name": "@voxpelli/generate-favicon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI for generating favicons from SVG source",
   "homepage": "http://github.com/voxpelli/generate-favicon",
   "repository": {
