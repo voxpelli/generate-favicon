@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/voxpelli/generate-favicon/compare/v1.1.0...v1.1.1) (2025-01-14)
+
+
+### 📚 Documentation
+
+* **readme:** update help excerpt in README ([179b0b6](https://github.com/voxpelli/generate-favicon/commit/179b0b6be2199769453d22951b5c854a05f109d7))
+
 ## [1.1.0](https://github.com/voxpelli/generate-favicon/compare/v1.0.1...v1.1.0) (2025-01-14)
 
 
