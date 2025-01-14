@@ -45,3 +45,7 @@ npm install -D @voxpelli/generate-favicon
     $ generate-favicon --size 120 --size 240 --ico favicon.svg
     $ generate-favicon --name favicon example.svg
 ```
+
+## See also
+
+- This tool is inspired and based on the excellent [How to Favicon in 2024: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)

@@ -35,14 +35,15 @@
   },
   "dependencies": {
     "@voxpelli/typed-utils": "^1.10.2",
+    "color-string": "^1.9.1",
     "ico-endec": "^0.1.6",
-    "markdown-or-chalk": "^0.2.3",
     "peowly": "^1.3.2",
     "pony-cause": "^2.1.11",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/chai": "^4.3.20",
+    "@types/color-string": "^1.5.5",
     "@types/mocha": "^10.0.10",
     "@types/node": "^20.17.12",
     "@voxpelli/eslint-config": "^22.2.0",

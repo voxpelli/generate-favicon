@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 import { isErrorWithCode } from '@voxpelli/typed-utils';
-import { MarkdownOrChalk } from 'markdown-or-chalk';
-
 import { messageWithCauses, stackWithCauses } from 'pony-cause';
 
 import { cli } from './lib/main.js';
 import { InputError, ResultError } from './lib/utils/errors.js';
+import { styleText } from 'node:util';
 
 try {
   await cli();
@@ -41,10 +40,8 @@ try {
     }
   }
 
-  const format = new MarkdownOrChalk(false);
-
   // eslint-disable-next-line no-console
-  console.error(`${format.chalk?.white.bgRed(errorTitle + ':')} ${errorMessage}`);
+  console.error(`${styleText('bgRed', errorTitle + ':')} ${errorMessage}`);
   if (errorBody) {
     // eslint-disable-next-line no-console
     console.error('\n' + errorBody);
