@@ -30,20 +30,21 @@ npm install -D @voxpelli/generate-favicon
     $ generate-favicon example.svg
 
   Output options
-    --default   Use default best practice favicon output
-    --ico   -i  Whether to output a .ico file (in a standard size)
-    --size  -s  The sizes to output PNG files for with optional custom name set with a suffix using a ":" as a separator
+    --background [#0000]  -b  A background color to use when extending (parsed using "color-string")
+    --ico                 -i  Whether to output a .ico file (in a standard size)
+    --name                -n  Custom name to use for output
+    --no-default              Skips default favicon output
+    --size                -s  The size to output PNG file for with optional values using a ":" as a separator: size:name:padding:suffix
 
   Options
-    --dry-run   Runs without saving anything
-    --help      Prints this help and exits
-    --name  -n  Custom name to use for output
-    --silent    Use to silent any text output
-    --version   Prints current version and exits
+    --dry-run                 Runs without saving anything
+    --help                    Prints this help and exits.
+    --silent                  Use to silent any text output
+    --version                 Prints current version and exits.
 
   Examples
-    $ generate-favicon --size 120 --size 240 --ico favicon.svg
-    $ generate-favicon --name favicon example.svg
+    $ generate-favicon --name something --background #000 --no-default --size 120 --size 240 --ico example.svg
+    $ generate-favicon --background #000 example.svg example-2.svg
 ```
 
 ## See also
