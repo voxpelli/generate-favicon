@@ -49,4 +49,4 @@ npm install -D @voxpelli/generate-favicon
 
 ## See also
 
-- This tool is inspired and based on the excellent [How to Favicon in 2024: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+- This tool is inspired and based on the excellent [How to Favicon in 2025: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
