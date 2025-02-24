@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.2](https://github.com/voxpelli/generate-favicon/compare/v1.1.1...v1.1.2) (2025-02-24)
+
+
+### 📚 Documentation
+
+* README link to article should be 2025 ([0d4081f](https://github.com/voxpelli/generate-favicon/commit/0d4081f8251289ec8475a110c819c1939efeacfd))
+
+
+### 🧹 Chores
+
+* **deps:** update dependency @types/node to ^20.17.19 ([#8](https://github.com/voxpelli/generate-favicon/issues/8)) ([3b05a49](https://github.com/voxpelli/generate-favicon/commit/3b05a49eb67e5850961c5b83274a17327bb6d184))
+* **deps:** update dependency @voxpelli/eslint-config to v23 ([#11](https://github.com/voxpelli/generate-favicon/issues/11)) ([e79d26a](https://github.com/voxpelli/generate-favicon/commit/e79d26ad44dff33d2e0533403a58bec06e3925d9))
+* **deps:** update dependency mocha to ^11.1.0 ([#9](https://github.com/voxpelli/generate-favicon/issues/9)) ([5a87630](https://github.com/voxpelli/generate-favicon/commit/5a8763075502fc11cfcdc45226915bb8643ba652))
+* **deps:** update linting dependencies ([#10](https://github.com/voxpelli/generate-favicon/issues/10)) ([7fe69ce](https://github.com/voxpelli/generate-favicon/commit/7fe69ce8e3d30f9502e7b5df8556bb8e5a4c47f5))
+
 ## [1.1.1](https://github.com/voxpelli/generate-favicon/compare/v1.1.0...v1.1.1) (2025-01-14)
 
 
