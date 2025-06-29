@@ -34,7 +34,7 @@
     "test": "run-s check test:*"
   },
   "dependencies": {
-    "@voxpelli/typed-utils": "^1.10.2",
+    "@voxpelli/typed-utils": "^2.0.0",
     "color-string": "^1.9.1",
     "ico-endec": "^0.1.6",
     "peowly": "^1.3.2",
