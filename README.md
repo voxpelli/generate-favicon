@@ -47,6 +47,21 @@ npm install -D @voxpelli/generate-favicon
     $ generate-favicon --background #000 example.svg example-2.svg
 ```
 
+## Testing
+
+Run the full validation suite (checks + tests) with:
+
+```sh
+npm test
+```
+
+Test files are organized by scope:
+
+- `test/unit/` — isolated tests for parsing and orchestration logic
+- `test/integration/` — filesystem and CLI behavior tests
+- `test/helpers/` — shared test utilities
+- `test/fixtures/` — static fixture files used by tests
+
 ## See also
 
 - This tool is inspired and based on the excellent [How to Favicon in 2025: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)

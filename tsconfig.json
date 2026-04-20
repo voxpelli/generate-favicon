@@ -1,13 +1,10 @@
 {
-  "extends": "@voxpelli/tsconfig/node20.json",
+  "extends": "@voxpelli/tsconfig/node22.json",
   "files": [
     "cli.js"
   ],
   "include": [
     "lib/**/*",
     "test/**/*",
-  ],
-  "compilerOptions": {
-    "types": ["node", "mocha"]
-  }
+  ]
 }
