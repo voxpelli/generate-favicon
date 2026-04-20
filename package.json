@@ -11,7 +11,8 @@
   "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
   "license": "MIT",
   "engines": {
-    "node": "^20.12.0 || >=22.0.0"
+    "node": "^22.13.0 || >=24.0.0",
+    "typescript": ">=5.9"
   },
   "bin": {
     "generate-favicon": "cli.js"
@@ -45,7 +46,7 @@
     "@types/chai": "^4.3.20",
     "@types/color-string": "^1.5.5",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^20.17.27",
+    "@types/node": "^22.19.17",
     "@voxpelli/eslint-config": "^23.0.0",
     "@voxpelli/tsconfig": "^15.1.2",
     "c8": "^10.1.3",
