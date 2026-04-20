@@ -40,7 +40,7 @@ try {
     }
   }
 
-  // eslint-disable-next-line no-console, n/no-unsupported-features/node-builtins
+  // eslint-disable-next-line no-console
   console.error(`${styleText('bgRed', errorTitle + ':')} ${errorMessage}`);
   if (errorBody) {
     // eslint-disable-next-line no-console
