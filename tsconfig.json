@@ -6,8 +6,5 @@
   "include": [
     "lib/**/*",
     "test/**/*",
-  ],
-  "compilerOptions": {
-    "types": ["node", "mocha"]
-  }
+  ]
 }
