@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
+import { styleText } from 'node:util';
 import { isErrorWithCode } from '@voxpelli/typed-utils';
 import { messageWithCauses, stackWithCauses } from 'pony-cause';
-
 import { cli } from './lib/main.js';
 import { InputError, ResultError } from './lib/utils/errors.js';
-import { styleText } from 'node:util';
 
 try {
   await cli();
@@ -40,10 +39,8 @@ try {
     }
   }
 
-  // eslint-disable-next-line no-console
   console.error(`${styleText('bgRed', errorTitle + ':')} ${errorMessage}`);
   if (errorBody) {
-    // eslint-disable-next-line no-console
     console.error('\n' + errorBody);
   }
 

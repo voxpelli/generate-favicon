@@ -1,3 +1,5 @@
+/* eslint-disable jsdoc/require-returns */
+
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
@@ -27,7 +29,7 @@ function serializeTargets (targets) {
 
       return { size: target, type: 'size' };
     })
-    .sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
+    .toSorted((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
 }
 
 describe('command()', () => {

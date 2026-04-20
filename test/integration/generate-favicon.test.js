@@ -6,8 +6,8 @@ import { stripVTControlCharacters } from 'node:util';
 
 import sharp from 'sharp';
 
-import { createTempDir, copyFixture } from '../helpers/fs.js';
 import { generate, ICO } from '../../lib/generate-favicon.js';
+import { copyFixture, createTempDir } from '../helpers/fs.js';
 
 /**
  * @param {string} value

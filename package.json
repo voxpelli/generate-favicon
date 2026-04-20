@@ -23,16 +23,16 @@
     "lib/**/*.js"
   ],
   "scripts": {
+    "check": "run-p check:*",
     "check:installed-check": "installed-check",
     "check:knip": "knip",
     "check:lint": "eslint",
     "check:tsc": "tsc",
     "check:type-coverage": "type-coverage --detail --strict --at-least 99 --ignore-files 'test/*'",
-    "check": "run-p check:*",
     "prepare": "husky",
+    "test": "run-s check test:*",
     "test:node": "c8 --reporter=lcov --reporter=text node --test",
-    "test-ci": "run-s test:*",
-    "test": "run-s check test:*"
+    "test-ci": "run-s test:*"
   },
   "dependencies": {
     "@voxpelli/typed-utils": "^4.2.0",
@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/color-string": "^1.5.5",
     "@types/node": "^22.19.17",
-    "@voxpelli/eslint-config": "^24.0.1",
+    "@voxpelli/eslint-config": "^25.0.1",
     "@voxpelli/tsconfig": "^16.2.1",
     "c8": "^11.0.0",
     "eslint": "^9.39.4",
