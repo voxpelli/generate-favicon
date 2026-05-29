@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@types/color-string": "^1.5.5",
-    "@types/node": "^22.19.17",
+    "@types/node": "^22.19.19",
     "@voxpelli/eslint-config": "^25.0.1",
     "@voxpelli/tsconfig": "^16.2.1",
     "c8": "^11.0.0",
@@ -54,7 +54,7 @@
     "knip": "^6.5.0",
     "npm-run-all2": "^8.0.4",
     "type-coverage": "^2.29.7",
-    "typescript": "~6.0.2",
+    "typescript": "~6.0.3",
     "validate-conventional-commit": "^1.0.4"
   }
 }
