@@ -48,7 +48,7 @@
     "@voxpelli/eslint-config": "^25.0.1",
     "@voxpelli/tsconfig": "^16.2.1",
     "c8": "^11.0.0",
-    "eslint": "^9.39.4",
+    "eslint": "^10.4.1",
     "husky": "^9.1.7",
     "installed-check": "^10.0.1",
     "knip": "^6.5.0",
